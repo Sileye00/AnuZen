@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "paths": {
+    "/webhook": {
+      "name": "/webhook",
+      "lambdaFunction": "anuzen67590a70",
+      "permissions": {
+        "setting": "open"
+      }
+    }
+  }
+}

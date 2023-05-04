@@ -1,0 +1,31 @@
+{
+  "staging": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-anuzen-staging-04741-authRole",
+      "UnauthRoleArn": "arn:aws:iam::609622251264:role/amplify-anuzen-staging-04741-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::609622251264:role/amplify-anuzen-staging-04741-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-anuzen-staging-04741-deployment",
+      "UnauthRoleName": "amplify-anuzen-staging-04741-unauthRole",
+      "StackName": "amplify-anuzen-staging-04741",
+      "StackId": "arn:aws:cloudformation:us-east-1:609622251264:stack/amplify-anuzen-staging-04741/468668e0-ea15-11ed-9756-0a9c082c0d95",
+      "AmplifyAppId": "dbbt456utpxwj"
+    },
+    "categories": {
+      "auth": {
+        "AnuZen": {}
+      },
+      "function": {
+        "anuzen67590a70": {
+          "secretsPathAmplifyAppId": "dbbt456utpxwj",
+          "deploymentBucketName": "amplify-anuzen-staging-04741-deployment",
+          "s3Key": "amplify-builds/anuzen67590a70-44737850652b2b4f6a78-build.zip"
+        }
+      },
+      "api": {
+        "AnuZen": {},
+        "api8130dfd1": {}
+      }
+    }
+  }
+}

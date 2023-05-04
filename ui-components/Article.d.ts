@@ -1,0 +1,96 @@
+/***************************************************************************
+ * The contents of this file were generated with Amplify Studio.           *
+ * Please refrain from making any modifications to this file.              *
+ * Any changes to this file will be overwritten when running amplify pull. *
+ **************************************************************************/
+
+import * as React from "react";
+import { EscapeHatchProps } from "@aws-amplify/ui-react/internal";
+import { FlexProps, IconProps, ImageProps, TextProps, ViewProps } from "@aws-amplify/ui-react";
+export declare type PrimitiveOverrideProps<T> = Partial<T> & React.DOMAttributes<HTMLDivElement>;
+export declare type ArticleOverridesProps = {
+    Article?: PrimitiveOverrideProps<ViewProps>;
+    How_to_start_working_remotely_as_a_designer_in_2020?: PrimitiveOverrideProps<TextProps>;
+    "Group 1483"?: PrimitiveOverrideProps<ViewProps>;
+    "Avatars / Memoji / Emmanuel"?: PrimitiveOverrideProps<ViewProps>;
+    Text46651693?: PrimitiveOverrideProps<TextProps>;
+    Text46651694?: PrimitiveOverrideProps<TextProps>;
+    "Attending a trade sh"?: PrimitiveOverrideProps<TextProps>;
+    "Group 689"?: PrimitiveOverrideProps<ViewProps>;
+    "162F9380-733A-4369-B450-A69C71CA5EC5"?: PrimitiveOverrideProps<ViewProps>;
+    "Frame 5564"?: PrimitiveOverrideProps<FlexProps>;
+    "Microsoft Patch Mana"?: PrimitiveOverrideProps<TextProps>;
+    "Nisl, proin commodo viverra orci phasellus placerat gravida. Vel luctus viverra odio leo iaculis hendrerit. Enim, faucibus est vivamus sed lacus, nulla congue et. Sed aenean interdum morbi morbi. Ultrices mattis eu tellus, sed etiam tellus nam lectus vulputate. Sed pulvinar ut id risus."?: PrimitiveOverrideProps<TextProps>;
+    "Frame 5565"?: PrimitiveOverrideProps<FlexProps>;
+    Entertainment?: PrimitiveOverrideProps<TextProps>;
+    "Pellentesque ipsum, dictum tristique vitae etiam proin imperdiet viverra at. Aliquam diam feugiat pellentesque dis pellentesque elementum. Et netus netus mollis egestas elementum morbi gravida. Lacus sed sem neque arcu. Morbi lacus, purus sed vitae duis at donec. Vitae quam habitant eget risus. Scelerisque a, rhoncus augue porttitor vivamus neque gravida lacus feugiat. Sed quisque elit libero sem mauris non. Diam velit mauris, nisl cursus rutrum. Orci, sem quis quis id suspendisse vitae. In dictum mauris libero semper rutrum viverra placerat mauris malesuada. Ultricies consequat vestibulum urna, auctor facilisis proin mattis. Pellentesque mollis mattis mattis natoque sed tellus tincidunt."?: PrimitiveOverrideProps<TextProps>;
+    "Frame 5566"?: PrimitiveOverrideProps<FlexProps>;
+    Food?: PrimitiveOverrideProps<TextProps>;
+    "Ullamcorper euismod et porttitor id ut quisque elit, vel facilisi. Nam ultricies et sit viverra dolor pellentesque. Quis viverra molestie nunc magna. Eu suspendisse ut pellentesque massa nulla. Augue odio amet mauris, lectus morbi felis. Id pretium at non faucibus mauris. Nunc ultrices eleifend lorem sollicitudin. Morbi tempor enim, urna tempus quam id sed id. Consectetur ultrices massa mi in massa dui fringilla.c Massa, tortor arcu, tempor nulla vitae. Blandit eros nullam elementum tortor tincidunt praesent donec a augue."?: PrimitiveOverrideProps<TextProps>;
+    Image46651707?: PrimitiveOverrideProps<ViewProps>;
+    Image46651708?: PrimitiveOverrideProps<ImageProps>;
+    "This is a caption on 46651709"?: PrimitiveOverrideProps<TextProps>;
+    Button46651710?: PrimitiveOverrideProps<ViewProps>;
+    Background46651711?: PrimitiveOverrideProps<ViewProps>;
+    Shadow46651712?: PrimitiveOverrideProps<ViewProps>;
+    Fill46651713?: PrimitiveOverrideProps<ViewProps>;
+    Icon46651714?: PrimitiveOverrideProps<TextProps>;
+    Button46651715?: PrimitiveOverrideProps<ViewProps>;
+    Background46651716?: PrimitiveOverrideProps<ViewProps>;
+    Shadow46651717?: PrimitiveOverrideProps<ViewProps>;
+    Fill46651718?: PrimitiveOverrideProps<ViewProps>;
+    Icon46651719?: PrimitiveOverrideProps<TextProps>;
+    "Here are some of the"?: PrimitiveOverrideProps<TextProps>;
+    "Ullamcorper euismod et porttitor id ut quisque elit, vel facilisi. Nam ultricies et sit viverra dolor pellentesque. Quis viverra molestie nunc magna. Eu suspendisse ut pellentesque massa nulla. Augue odio amet mauris, lectus morbi felis. Id pretium at non faucibus mauris. Nunc ultrices eleifend lorem sollicitudin. Morbi tempor enim, urna tempus quam id sed id. Consectetur ultrices massa mi in massa dui fringilla. Massa, tortor arcu, tempor nulla vitae. Blandit eros nullam elementum tortor tincidunt praesent donec a augue. Non et elit proin ornare elit, ornare orci, nisl.46651721"?: PrimitiveOverrideProps<TextProps>;
+    "Bonnie Springs46651722"?: PrimitiveOverrideProps<TextProps>;
+    "Ullamcorper euismod et porttitor id ut quisque elit, vel facilisi. Nam ultricies et sit viverra dolor pellentesque. Quis viverra molestie nunc magna. Eu suspendisse ut pellentesque massa nulla. Augue odio amet mauris, lectus morbi felis. Id pretium at non faucibus mauris. Nunc ultrices eleifend lorem sollicitudin. Morbi tempor enim, urna tempus quam id sed id. Consectetur ultrices massa mi in massa dui fringilla. Massa, tortor arcu, tempor nulla vitae. Blandit eros nullam elementum tortor tincidunt praesent"?: PrimitiveOverrideProps<TextProps>;
+    quote?: PrimitiveOverrideProps<ViewProps>;
+    "Rectangle 2"?: PrimitiveOverrideProps<ViewProps>;
+    Rectangle46651726?: PrimitiveOverrideProps<ViewProps>;
+    Rectangle46651727?: PrimitiveOverrideProps<ViewProps>;
+    Oval?: PrimitiveOverrideProps<IconProps>;
+    Path46651729?: PrimitiveOverrideProps<IconProps>;
+    Path46651730?: PrimitiveOverrideProps<IconProps>;
+    "quote-left"?: PrimitiveOverrideProps<TextProps>;
+    "Daniel hosts in Yogy"?: PrimitiveOverrideProps<TextProps>;
+    "Many people would sa"?: PrimitiveOverrideProps<TextProps>;
+    Quote?: PrimitiveOverrideProps<ViewProps>;
+    Image46651735?: PrimitiveOverrideProps<ViewProps>;
+    Image46651736?: PrimitiveOverrideProps<ImageProps>;
+    Image46651737?: PrimitiveOverrideProps<ImageProps>;
+    "Ullamcorper euismod et porttitor id ut quisque elit, vel facilisi. Nam ultricies et sit viverra dolor pellentesque. Quis viverra molestie nunc magna. Eu suspendisse ut pellentesque massa nulla. Augue odio amet mauris, lectus morbi felis. Id pretium at non faucibus mauris. Nunc ultrices eleifend lorem sollicitudin. Morbi tempor enim, urna tempus quam id sed id. Consectetur ultrices massa mi in massa dui fringilla. Massa, tortor arcu, tempor nulla vitae. Blandit eros nullam elementum tortor tincidunt praesent."?: PrimitiveOverrideProps<TextProps>;
+    photo?: PrimitiveOverrideProps<ViewProps>;
+    Image46651740?: PrimitiveOverrideProps<ImageProps>;
+    "This is a caption on 46651741"?: PrimitiveOverrideProps<TextProps>;
+    Image46651742?: PrimitiveOverrideProps<ImageProps>;
+    Image46651743?: PrimitiveOverrideProps<ImageProps>;
+    "Bonnie Springs46651744"?: PrimitiveOverrideProps<TextProps>;
+    "Ullamcorper euismod et porttitor id ut quisque elit, vel facilisi. Nam ultricies et sit viverra dolor pellentesque. Quis viverra molestie nunc magna. Eu suspendisse ut pellentesque massa nulla. Augue odio amet mauris, lectus morbi felis. Id pretium at non faucibus mauris. Nunc ultrices eleifend lorem sollicitudin. Morbi tempor enim, urna tempus quam id sed id. Consectetur ultrices massa mi in massa dui fringilla. Massa, tortor arcu, tempor nulla vitae. Blandit eros nullam elementum tortor tincidunt praesent donec a augue. Non et elit proin ornare elit, ornare orci, nisl.46651745"?: PrimitiveOverrideProps<TextProps>;
+    Icon46651746?: PrimitiveOverrideProps<ViewProps>;
+    Icon46651747?: PrimitiveOverrideProps<ViewProps>;
+    Icon46651748?: PrimitiveOverrideProps<ViewProps>;
+    "Front-end"?: PrimitiveOverrideProps<TextProps>;
+    "Group 1484"?: PrimitiveOverrideProps<ViewProps>;
+    "March 11, 2021"?: PrimitiveOverrideProps<TextProps>;
+    "6 min read"?: PrimitiveOverrideProps<TextProps>;
+    "Ellipse 1"?: PrimitiveOverrideProps<IconProps>;
+    "Course 1"?: PrimitiveOverrideProps<ViewProps>;
+    "Course 2"?: PrimitiveOverrideProps<ViewProps>;
+    "Course 9"?: PrimitiveOverrideProps<ViewProps>;
+    "More posts like this"?: PrimitiveOverrideProps<TextProps>;
+    Organizations?: PrimitiveOverrideProps<ViewProps>;
+    User46641729?: PrimitiveOverrideProps<FlexProps>;
+    User46641730?: PrimitiveOverrideProps<FlexProps>;
+    Avatar?: PrimitiveOverrideProps<ViewProps>;
+    "Group 6027"?: PrimitiveOverrideProps<ViewProps>;
+    Base?: PrimitiveOverrideProps<IconProps>;
+    S?: PrimitiveOverrideProps<TextProps>;
+    Name?: PrimitiveOverrideProps<TextProps>;
+    "Sign Out"?: PrimitiveOverrideProps<TextProps>;
+    Logo?: PrimitiveOverrideProps<ViewProps>;
+    Footer?: PrimitiveOverrideProps<ViewProps>;
+} & EscapeHatchProps;
+export declare type ArticleProps = React.PropsWithChildren<Partial<ViewProps> & {
+    overrides?: ArticleOverridesProps | undefined | null;
+}>;
+export default function Article(props: ArticleProps): React.ReactElement;
