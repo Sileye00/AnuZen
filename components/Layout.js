@@ -1,10 +1,10 @@
+//components/Layout.js
 import React from "react";
 import { View } from "@aws-amplify/ui-react";
 import { Nav } from "../ui-components";
-
 function Layout({ children, authText, handleClick, username }) {
   return (
-    <View width="100%" maxWidth="1440px" marginLeft="auto" marginRight="auto">
+    <View width="1440px" marginLeft="" marginRight="">
       <Nav
         marginTop={""}
         handleAuth={handleClick}
@@ -16,5 +16,4 @@ function Layout({ children, authText, handleClick, username }) {
     </View>
   );
 }
-
 export default Layout;
