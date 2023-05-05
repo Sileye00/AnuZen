@@ -80,16 +80,17 @@ export default function Hero(props) {
         ></Text>
         <View
           padding="0px 0px 0px 0px"
-          width="471px"
+          width="467px"
           height="40px"
           display="block"
           gap="unset"
           alignItems="unset"
           justifyContent="unset"
           position="absolute"
-          top="438px"
-          left="210px"
-          {...getOverrideProps(overrides, "Button Area")}
+          top="412px"
+          left="212px"
+          onClick={handleClick}
+          {...getOverrideProps(overrides, "Button ")}
         >
           <Flex
             gap="4px"
@@ -101,7 +102,7 @@ export default function Hero(props) {
             overflow="hidden"
             position="absolute"
             top="0px"
-            left="252px"
+            left="248px"
             border="1px SOLID rgba(129,94,134,1)"
             boxShadow="0px 4px 4px rgba(0, 0, 0, 0.25)"
             borderRadius="15px"
@@ -477,6 +478,30 @@ export default function Hero(props) {
           )}
         ></Text>
       </View>
+      <Icon
+        width="1440px"
+        height="0px"
+        viewBox={{ minX: 0, minY: 0, width: 1440, height: 2.1239013671875 }}
+        paths={[
+          {
+            d: "M0 0L1440 0L1440 -1L0 -1L0 0Z",
+            stroke: "rgba(129,94,134,1)",
+            fillRule: "nonzero",
+            strokeWidth: 1,
+          },
+        ]}
+        display="block"
+        gap="unset"
+        alignItems="unset"
+        justifyContent="unset"
+        position="absolute"
+        top="670px"
+        left="0px"
+        transformOrigin="top left"
+        transform="rotate(0.08deg)"
+        underlinePosition="1"
+        {...getOverrideProps(overrides, "Line 1")}
+      ></Icon>
       <Text
         fontFamily="Poppins"
         fontSize="48px"

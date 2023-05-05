@@ -14,7 +14,7 @@ export declare type HeroOverridesProps = {
     "Frame 5589"?: PrimitiveOverrideProps<ViewProps>;
     "Rectangle 2"?: PrimitiveOverrideProps<ImageProps>;
     "Discover Your Inner Zen"?: PrimitiveOverrideProps<TextProps>;
-    "Button Area"?: PrimitiveOverrideProps<ViewProps>;
+    "Button "?: PrimitiveOverrideProps<ViewProps>;
     "Frame 5588"?: PrimitiveOverrideProps<FlexProps>;
     "\uD83D\uDCB0"?: PrimitiveOverrideProps<TextProps>;
     "For $99.99/Month"?: PrimitiveOverrideProps<TextProps>;
@@ -32,6 +32,7 @@ export declare type HeroOverridesProps = {
     "Vector 847641850"?: PrimitiveOverrideProps<IconProps>;
     "Vector 947641851"?: PrimitiveOverrideProps<IconProps>;
     "Subscribe today to Embark on a Journey of Self-Discovery Growth to Connect with Your Inner Self and Find True Peace."?: PrimitiveOverrideProps<TextProps>;
+    "Line 1"?: PrimitiveOverrideProps<IconProps>;
     "Discover what our clients are saying about us"?: PrimitiveOverrideProps<TextProps>;
     "Read inspiring stories of transformation and success from those who have experienced the power of AnuZen"?: PrimitiveOverrideProps<TextProps>;
     "Ellipse 3"?: PrimitiveOverrideProps<IconProps>;

@@ -4,13 +4,13 @@
  * Any changes to this file will be overwritten when running amplify pull. *
  **************************************************************************/
 
-export { default as Hero } from "./Hero";
 export { default as Article } from "./Article";
 export { default as Logo } from "./Logo";
 export { default as Footer } from "./Footer";
 export { default as Testimony } from "./Testimony";
 export { default as Stories } from "./Stories";
 export { default as Testimonies } from "./Testimonies";
+export { default as Hero } from "./Hero";
 export { default as Persuade } from "./Persuade";
 export { default as Nav } from "./Nav";
 export { default as Story } from "./Story";
