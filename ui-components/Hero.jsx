@@ -7,7 +7,15 @@
 /* eslint-disable */
 import * as React from "react";
 import { getOverrideProps } from "@aws-amplify/ui-react/internal";
-import { Flex, Icon, Image, Text, View } from "@aws-amplify/ui-react";
+import {
+  Button,
+  Divider,
+  Flex,
+  Icon,
+  Image,
+  Text,
+  View,
+} from "@aws-amplify/ui-react";
 export default function Hero(props) {
   const { handleClick, overrides, ...rest } = props;
   return (
@@ -25,18 +33,78 @@ export default function Hero(props) {
       {...getOverrideProps(overrides, "Hero")}
       {...rest}
     >
+      <Divider
+        width="1440px"
+        height="1px"
+        position="absolute"
+        top="670px"
+        left="0px"
+        backgroundColor="rgba(129,94,134,1)"
+        size="small"
+        orientation="horizontal"
+        {...getOverrideProps(overrides, "Divider47861834")}
+      ></Divider>
+      <Text
+        fontFamily="Poppins"
+        fontSize="48px"
+        fontWeight="700"
+        color="rgba(51,51,51,1)"
+        lineHeight="72px"
+        textAlign="center"
+        display="block"
+        direction="column"
+        justifyContent="unset"
+        width="1151px"
+        height="77px"
+        gap="unset"
+        alignItems="unset"
+        position="absolute"
+        top="781px"
+        left="125px"
+        padding="0px 0px 0px 0px"
+        whiteSpace="pre-wrap"
+        children=" Discover what our clients are saying about us"
+        {...getOverrideProps(
+          overrides,
+          "Discover what our clients are saying about us"
+        )}
+      ></Text>
+      <Text
+        fontFamily="Poppins"
+        fontSize="36px"
+        fontWeight="400"
+        color="rgba(51,51,51,1)"
+        lineHeight="54px"
+        textAlign="center"
+        display="block"
+        direction="column"
+        justifyContent="unset"
+        width="1116px"
+        height="150px"
+        gap="unset"
+        alignItems="unset"
+        position="absolute"
+        top="858px"
+        left="143px"
+        padding="0px 0px 0px 0px"
+        whiteSpace="pre-wrap"
+        children="Read inspiring stories of transformation and success from those who have experienced the power of AnuZen"
+        {...getOverrideProps(
+          overrides,
+          "Read inspiring stories of transformation and success from those who have experienced the power of AnuZen"
+        )}
+      ></Text>
       <View
-        width="1441px"
-        height="671px"
+        width="1440px"
+        height="670px"
         display="block"
         gap="unset"
         alignItems="unset"
         justifyContent="unset"
         overflow="hidden"
         position="absolute"
-        top="-0.5px"
-        left="-0.5px"
-        border="1px SOLID rgba(129,94,134,1)"
+        top="0px"
+        left="0px"
         padding="0px 0px 0px 0px"
         {...getOverrideProps(overrides, "Frame 5589")}
       >
@@ -79,70 +147,59 @@ export default function Hero(props) {
           children="Discover Your Inner Zen"
           {...getOverrideProps(overrides, "Discover Your Inner Zen")}
         ></Text>
-        <View
-          padding="0px 0px 0px 0px"
-          width="467px"
-          height="40px"
-          display="block"
-          gap="unset"
-          alignItems="unset"
-          justifyContent="unset"
+        <Flex
+          gap="25px"
+          direction="row"
+          width="unset"
+          height="unset"
+          justifyContent="center"
+          alignItems="center"
           position="absolute"
-          top="412px"
-          left="212px"
-          onClick={handleClick}
-          {...getOverrideProps(overrides, "Button ")}
+          top="438px"
+          left="307px"
+          padding="0px 0px 0px 0px"
+          {...getOverrideProps(overrides, "Button Area")}
         >
+          <Button
+            width="unset"
+            height="unset"
+            borderRadius="15px"
+            shrink="0"
+            backgroundColor="rgba(129,94,134,1)"
+            size="default"
+            isDisabled={false}
+            variation="primary"
+            children="Become a Member"
+            onClick={handleClick}
+            {...getOverrideProps(overrides, "Button")}
+          ></Button>
           <Flex
             gap="4px"
             direction="row"
-            width="219px"
+            width="178px"
             height="40px"
             justifyContent="center"
             alignItems="center"
             overflow="hidden"
-            position="absolute"
-            top="0px"
-            left="248px"
+            shrink="0"
+            position="relative"
             border="1px SOLID rgba(129,94,134,1)"
-            boxShadow="0px 4px 4px rgba(0, 0, 0, 0.25)"
             borderRadius="15px"
             padding="0px 0px 0px 0px"
             {...getOverrideProps(overrides, "Frame 5588")}
           >
             <Text
-              fontFamily="HK Grotesk"
-              fontSize="18px"
-              fontWeight="700"
-              color="rgba(255,255,255,1)"
-              lineHeight="32px"
-              textAlign="left"
-              display="block"
-              direction="column"
-              justifyContent="unset"
-              width="unset"
-              height="unset"
-              gap="unset"
-              alignItems="unset"
-              shrink="0"
-              position="relative"
-              padding="0px 0px 0px 0px"
-              whiteSpace="pre-wrap"
-              children="💰"
-              {...getOverrideProps(overrides, "\uD83D\uDCB0")}
-            ></Text>
-            <Text
               fontFamily="Inter"
               fontSize="16px"
-              fontWeight="400"
+              fontWeight="700"
               color="rgba(129,94,134,1)"
               lineHeight="24px"
-              textAlign="left"
+              textAlign="center"
               display="block"
               direction="column"
               justifyContent="unset"
               letterSpacing="0.01px"
-              width="unset"
+              width="146px"
               height="unset"
               gap="unset"
               alignItems="unset"
@@ -154,48 +211,7 @@ export default function Hero(props) {
               {...getOverrideProps(overrides, "For $99.99/Month")}
             ></Text>
           </Flex>
-          <Flex
-            gap="0"
-            direction="row"
-            width="219px"
-            height="40px"
-            justifyContent="center"
-            alignItems="center"
-            overflow="hidden"
-            position="absolute"
-            top="0px"
-            left="0px"
-            border="1px SOLID rgba(0,0,0,0)"
-            boxShadow="0px 4px 4px rgba(0, 0, 0, 0.25)"
-            borderRadius="15px"
-            padding="7px 15px 7px 15px"
-            backgroundColor="rgba(129,94,134,1)"
-            onClick={handleClick}
-            {...getOverrideProps(overrides, "Button")}
-          >
-            <Text
-              fontFamily="Inter"
-              fontSize="14px"
-              fontWeight="700"
-              color="rgba(255,255,255,1)"
-              lineHeight="21px"
-              textAlign="left"
-              display="block"
-              direction="column"
-              justifyContent="unset"
-              width="128px"
-              height="unset"
-              gap="unset"
-              alignItems="unset"
-              shrink="0"
-              position="relative"
-              padding="0px 0px 0px 0px"
-              whiteSpace="pre-wrap"
-              children="Become a Member"
-              {...getOverrideProps(overrides, "label")}
-            ></Text>
-          </Flex>
-        </View>
+        </Flex>
         <Icon
           width="300px"
           height="300px"
@@ -212,8 +228,8 @@ export default function Hero(props) {
           alignItems="unset"
           justifyContent="unset"
           position="absolute"
-          top="534px"
-          left="-150px"
+          top="529px"
+          left="-134px"
           {...getOverrideProps(overrides, "Ellipse 2")}
         ></Icon>
         <View
@@ -463,13 +479,13 @@ export default function Hero(props) {
           direction="column"
           justifyContent="unset"
           letterSpacing="2.19px"
-          width="823px"
-          height="unset"
+          width="873px"
+          height="246px"
           gap="unset"
           alignItems="unset"
           position="absolute"
-          top="198px"
-          left="32px"
+          top="212px"
+          left="7px"
           padding="0px 0px 0px 0px"
           whiteSpace="pre-wrap"
           children="Subscribe today to Embark on a Journey of Self-Discovery Growth to Connect with Your Inner Self and Find True Peace.&#xA;"
@@ -479,80 +495,6 @@ export default function Hero(props) {
           )}
         ></Text>
       </View>
-      <Icon
-        width="1440px"
-        height="0px"
-        viewBox={{ minX: 0, minY: 0, width: 1440, height: 2.1239013671875 }}
-        paths={[
-          {
-            d: "M0 0L1440 0L1440 -1L0 -1L0 0Z",
-            stroke: "rgba(129,94,134,1)",
-            fillRule: "nonzero",
-            strokeWidth: 1,
-          },
-        ]}
-        display="block"
-        gap="unset"
-        alignItems="unset"
-        justifyContent="unset"
-        position="absolute"
-        top="670px"
-        left="0px"
-        transformOrigin="top left"
-        transform="rotate(0.08deg)"
-        underlinePosition="1"
-        {...getOverrideProps(overrides, "Line 1")}
-      ></Icon>
-      <Text
-        fontFamily="Poppins"
-        fontSize="48px"
-        fontWeight="700"
-        color="rgba(51,51,51,1)"
-        lineHeight="72px"
-        textAlign="center"
-        display="block"
-        direction="column"
-        justifyContent="unset"
-        width="1151px"
-        height="77px"
-        gap="unset"
-        alignItems="unset"
-        position="absolute"
-        top="781px"
-        left="125px"
-        padding="0px 0px 0px 0px"
-        whiteSpace="pre-wrap"
-        children=" Discover what our clients are saying about us"
-        {...getOverrideProps(
-          overrides,
-          "Discover what our clients are saying about us"
-        )}
-      ></Text>
-      <Text
-        fontFamily="Poppins"
-        fontSize="36px"
-        fontWeight="400"
-        color="rgba(51,51,51,1)"
-        lineHeight="54px"
-        textAlign="center"
-        display="block"
-        direction="column"
-        justifyContent="unset"
-        width="1116px"
-        height="150px"
-        gap="unset"
-        alignItems="unset"
-        position="absolute"
-        top="858px"
-        left="143px"
-        padding="0px 0px 0px 0px"
-        whiteSpace="pre-wrap"
-        children="Read inspiring stories of transformation and success from those who have experienced the power of AnuZen"
-        {...getOverrideProps(
-          overrides,
-          "Read inspiring stories of transformation and success from those who have experienced the power of AnuZen"
-        )}
-      ></Text>
       <Icon
         width="300px"
         height="300px"
@@ -569,10 +511,21 @@ export default function Hero(props) {
         alignItems="unset"
         justifyContent="unset"
         position="absolute"
-        top="-193px"
-        left="1306px"
+        top="-175px"
+        left="1297px"
         {...getOverrideProps(overrides, "Ellipse 3")}
       ></Icon>
+      <Divider
+        width="1440px"
+        height="1px"
+        position="absolute"
+        top="0px"
+        left="0px"
+        backgroundColor="rgba(129,94,134,1)"
+        size="small"
+        orientation="horizontal"
+        {...getOverrideProps(overrides, "Divider47861837")}
+      ></Divider>
     </View>
   );
 }

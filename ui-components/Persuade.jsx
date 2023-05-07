@@ -7,7 +7,7 @@
 /* eslint-disable */
 import * as React from "react";
 import { getOverrideProps } from "@aws-amplify/ui-react/internal";
-import { Flex, Image, Text, View } from "@aws-amplify/ui-react";
+import { Button, Image, Text, View } from "@aws-amplify/ui-react";
 export default function Persuade(props) {
   const { handleClick, banner, overrides, ...rest } = props;
   return (
@@ -52,46 +52,21 @@ export default function Persuade(props) {
           "Join our community of like-minded individuals and gain access to premium content, tools, and resources to support your growth journey."
         )}
       ></Text>
-      <Flex
-        gap="0"
-        direction="row"
-        width="219px"
-        height="40px"
-        justifyContent="center"
-        alignItems="center"
-        overflow="hidden"
+      <Button
+        width="unset"
+        height="unset"
         position="absolute"
+        borderRadius="15px"
         top="242px"
         left="610px"
-        border="1px SOLID rgba(0,0,0,0)"
-        borderRadius="15px"
-        padding="7px 15px 7px 15px"
         backgroundColor="rgba(129,94,134,1)"
+        size="default"
+        isDisabled={false}
+        variation="primary"
+        children="Become a Member"
         onClick={handleClick}
         {...getOverrideProps(overrides, "Button")}
-      >
-        <Text
-          fontFamily="Inter"
-          fontSize="14px"
-          fontWeight="700"
-          color="rgba(255,255,255,1)"
-          lineHeight="21px"
-          textAlign="left"
-          display="block"
-          direction="column"
-          justifyContent="unset"
-          width="128px"
-          height="unset"
-          gap="unset"
-          alignItems="unset"
-          shrink="0"
-          position="relative"
-          padding="0px 0px 0px 0px"
-          whiteSpace="pre-wrap"
-          children="Become a Member"
-          {...getOverrideProps(overrides, "label")}
-        ></Text>
-      </Flex>
+      ></Button>
       <Image
         width="1440px"
         height="683px"

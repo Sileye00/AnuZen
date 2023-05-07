@@ -6,14 +6,13 @@
 
 import * as React from "react";
 import { EscapeHatchProps } from "@aws-amplify/ui-react/internal";
-import { FlexProps, ImageProps, TextProps, ViewProps } from "@aws-amplify/ui-react";
+import { ButtonProps, ImageProps, TextProps, ViewProps } from "@aws-amplify/ui-react";
 import { SyntheticEvent } from "react";
 export declare type PrimitiveOverrideProps<T> = Partial<T> & React.DOMAttributes<HTMLDivElement>;
 export declare type PersuadeOverridesProps = {
     Persuade?: PrimitiveOverrideProps<ViewProps>;
     "Join our community of like-minded individuals and gain access to premium content, tools, and resources to support your growth journey."?: PrimitiveOverrideProps<TextProps>;
-    Button?: PrimitiveOverrideProps<FlexProps>;
-    label?: PrimitiveOverrideProps<TextProps>;
+    Button?: PrimitiveOverrideProps<ButtonProps>;
     Banner?: PrimitiveOverrideProps<ImageProps>;
 } & EscapeHatchProps;
 export declare type PersuadeProps = React.PropsWithChildren<Partial<ViewProps> & {

@@ -32,8 +32,10 @@ function index() {
       <View>
         <Testimonies />
       </View>
-      <Flex justifyContent={"center"}>
-        <Persuade banner="https://cdn.discordapp.com/attachments/989268410171006976/1103513114646949888/DevJules_A_meditation_area_yoga_self-discovery_Style_Room_Type__a8bedf42-f6e1-435a-9bb6-89f5fa7dcb90.png" />
+      <Flex justifyContent={""}>
+        <Persuade banner="https://cdn.discordapp.com/attachments/989268410171006976/1103513114646949888/DevJules_A_meditation_area_yoga_self-discovery_Style_Room_Type__a8bedf42-f6e1-435a-9bb6-89f5fa7dcb90.png" 
+                  handleClick={handleClick}
+        />
       </Flex>
       <View marginTop="" marginBottom="">
         <Footer />
