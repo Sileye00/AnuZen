@@ -26,16 +26,17 @@ export default function Hero(props) {
       {...rest}
     >
       <View
-        width="1440px"
-        height="670px"
+        width="1441px"
+        height="671px"
         display="block"
         gap="unset"
         alignItems="unset"
         justifyContent="unset"
         overflow="hidden"
         position="absolute"
-        top="0px"
-        left="0px"
+        top="-0.5px"
+        left="-0.5px"
+        border="1px SOLID rgba(129,94,134,1)"
         padding="0px 0px 0px 0px"
         {...getOverrideProps(overrides, "Frame 5589")}
       >
