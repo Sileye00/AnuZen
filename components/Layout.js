@@ -4,7 +4,7 @@ import { View } from "@aws-amplify/ui-react";
 import { Nav } from "../ui-components";
 function Layout({ children, authText, handleClick, username }) {
   return (
-    <View width="cover" marginLeft="" marginRight="">
+    <View width="1200px" marginLeft="" marginRight="">
       <Nav
         marginTop={""}
         handleAuth={handleClick}
